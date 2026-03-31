@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { getMonth, getDate, format } from 'date-fns';
-import { CheckCircle2, Circle, Trophy, Play, Lock, Brain, MonitorPlay, Users, Presentation, Activity, CalendarDays, Award } from 'lucide-react';
+import { CheckCircle2, Circle, Trophy, Lock, Brain, MonitorPlay, Users, Presentation, Activity, CalendarDays, Award } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
